@@ -1,0 +1,42 @@
+{
+  "name": "angular2-dashboards-app",
+  "version": "1.0.0",
+  "description": "Simple dashboard app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Den-dp/angular2-dashboards-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Den-dp/angular2-dashboards-app/issues"
+  },
+  "homepage": "https://github.com/Den-dp/angular2-dashboards-app#readme",
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.4",
+    "@angular/compiler": "^2.0.0-rc.4",
+    "@angular/core": "^2.0.0-rc.4",
+    "@angular/forms": "^0.2.0",
+    "@angular/http": "^2.0.0-rc.4",
+    "@angular/platform-browser": "^2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
+    "@angular/router": "^3.0.0-beta.2",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "to-string-loader": "^1.1.4",
+    "ts-helpers": "^1.1.1",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
