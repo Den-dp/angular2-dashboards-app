@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base src"
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base src",
+    "api": "node feathers/"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,22 @@
     "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
     "@angular/router": "^3.0.0-beta.2",
     "rxjs": "^5.0.0-beta.6",
-    "zone.js": "^0.6.12"
+    "zone.js": "^0.6.12",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cors": "^2.7.1",
+    "feathers": "^2.0.1",
+    "feathers-authentication": "^0.7.9",
+    "feathers-configuration": "^0.2.3",
+    "feathers-errors": "^2.4.0",
+    "feathers-hooks": "^1.5.4",
+    "feathers-nedb": "^2.4.1",
+    "feathers-rest": "^1.4.3",
+    "feathers-socketio": "^1.4.1",
+    "nedb": "^1.8.0",
+    "passport": "^0.3.2",
+    "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^1.1.1",
@@ -37,6 +53,7 @@
     "ts-helpers": "^1.1.1",
     "typescript": "^1.8.10",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "request": "^2.74.0"
   }
 }

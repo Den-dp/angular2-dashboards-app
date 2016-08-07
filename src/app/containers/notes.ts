@@ -38,7 +38,7 @@ import 'rxjs/Rx';
   `
 })
 export class Notes {
-  notes = []
+  notes = [];
   constructor(
     private store: Store,
     private noteService: NoteService

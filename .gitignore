@@ -4,3 +4,6 @@ npm-debug.log
 typings/
 .idea/
 .vscode/
+
+lib/
+data/

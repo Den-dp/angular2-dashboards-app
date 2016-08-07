@@ -105,7 +105,7 @@ export class Auth {
 
   changeMode() {
     if (this.mode === 'signin') {
-      this.mode = 'signup'
+      this.mode = 'signup';
       this.linkText = 'Already have an account?'
     } else {
       this.mode = 'signin';
