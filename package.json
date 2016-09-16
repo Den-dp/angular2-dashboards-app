@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Den-dp/angular2-dashboards-app#readme",
   "dependencies": {
-    "angular2-in-memory-web-api": "0.0.20",
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
     "@angular/core": "2.0.0",
@@ -30,8 +29,7 @@
     "@angular/platform-browser-dynamic": "2.0.0",
     "@angular/router": "3.0.0",
     "@angular/upgrade": "2.0.0",
-    "rxjs": "^5.0.0-beta.12",
-    "zone.js": "^0.6.23",
+    "angular2-in-memory-web-api": "0.0.20",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
     "cors": "^2.7.1",
@@ -45,17 +43,20 @@
     "feathers-socketio": "^1.4.1",
     "nedb": "^1.8.0",
     "passport": "^0.3.2",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.12",
     "serve-favicon": "^2.3.0",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "zone.js": "^0.6.23"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^1.1.1",
     "css-loader": "^0.23.1",
+    "request": "^2.74.0",
     "to-string-loader": "^1.1.4",
     "ts-helpers": "^1.1.1",
-    "typescript": "^1.8.10",
+    "typescript": "^2.0.2",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1",
-    "request": "^2.74.0"
+    "webpack-dev-server": "^1.14.1"
   }
 }

@@ -9,8 +9,8 @@ var config = {
     vendor:    './src/vendor',
     main:      './src/main',
     styles:    [
-        'normalize.css',
-        'flexboxgrid'
+        // 'normalize.css',
+        // 'flexboxgrid'
     ]
   },
 
