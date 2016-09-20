@@ -9,8 +9,12 @@ import { Component } from '@angular/core';
   // ],
   template: `
     <div class="app">
+      <nav>
+        <a routerLink="">Dashboard</a>
+        <a routerLink="settings">Settings</a>
+      </nav>
       <dashboard></dashboard>
-      <!--<router-outlet></router-outlet>-->
+      <router-outlet></router-outlet>
     </div>
   `
 })

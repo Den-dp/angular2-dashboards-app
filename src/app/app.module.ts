@@ -1,11 +1,13 @@
-import {AppComponent} from "./";
-import {BrowserModule} from "@angular/platform-browser";
+import {AppComponent} from "./app.component";
 import {NgModule} from "@angular/core";
-import {DashboardModule} from "./dashboard/dashboard.module";
-import {ServicesModule} from "./services/services.module";
+import {BrowserModule} from "@angular/platform-browser";
+// import {ServicesModule} from "./services/services.module";
+// import {routes} from './routes';
+import appRoutes from './app.routes';
+
 
 @NgModule({
-  imports: [BrowserModule, DashboardModule, ServicesModule.forRoot()],
+  imports: [BrowserModule, appRoutes , /*DashboardModule, ServicesModule.forRoot()*/],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })

@@ -6,7 +6,8 @@ import {WidgetThree} from "../widgets/widget-three.component";
   template: `
 <!--<div>I'm dashboard component</div>-->
 <!--<div>{{simpleService.message}}</div>-->
-  <widget-one [message]="simpleService.message"></widget-one>
+1
+<!--  <widget-one [message]="simpleService.message"></widget-one>
 
   <widget-two>
   <h2 header>Title</h2>
@@ -19,11 +20,11 @@ import {WidgetThree} from "../widgets/widget-three.component";
   <template #template let-description="description">
     <h2>My {{description}} template</h2>
     <button>My {{description}} button</button>
-  </template>
+  </template>-->
 `
 })
 export class DashboardComponent {
-  @ViewChild('container', {read: ViewContainerRef}) container;
+/*  @ViewChild('container', {read: ViewContainerRef}) container;
   @ViewChild('template') template;
 
   widgetRef;
@@ -54,5 +55,5 @@ export class DashboardComponent {
     //
     // const widgetRef = this.container.createComponent(widgetFactory, 2);
     // widgetRef.instance.message = `I'm third!`
-  }
+  }*/
 }
