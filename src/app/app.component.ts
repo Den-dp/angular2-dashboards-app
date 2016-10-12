@@ -4,14 +4,30 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app',
+  styles: [`
+    a {
+    text-decoration: none;
+    }
+    
+    a.active {
+      font-weight: bold;
+    }
+  `],
   // directives: [
   //   ...ROUTER_DIRECTIVES
   // ],
   template: `
     <div class="app">
       <nav>
-        <a routerLink="">Dashboard</a>
-        <a routerLink="settings">Settings</a>
+        <a
+          routerLink=""
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact: true}"
+          >Dashboard</a>
+        <a
+          routerLink="settings"
+          routerLinkActive="active"
+          >Settings</a>
       </nav>
       <dashboard></dashboard>
       <router-outlet></router-outlet>

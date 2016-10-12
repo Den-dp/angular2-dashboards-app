@@ -8,4 +8,4 @@ import {SettingsComponent} from './settings.component';
   declarations: [SettingsComponent],
   exports: [SettingsComponent]
 })
-export class DashboardModule {}
+export class SettingsModule {}
